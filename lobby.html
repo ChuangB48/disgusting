@@ -176,7 +176,7 @@
         </div>
     </body>
     <script>
-        const socket=new WebSocket("ws://127.0.0.1:80");
+        const socket=new WebSocket("wss://disgusting.onrender.com");
         socket.onmessage=event=>{
             let word=event.data.toString();
             word=JSON.parse(word);
